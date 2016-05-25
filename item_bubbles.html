@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Bubbles</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/item.css"/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato"/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:500"/>
+		<script>
+			//Global array of images.
+			var images = [
+				"media/ss_bubbles_1.png",
+				"media/ss_bubbles_2.png",
+				"media/ss_bubbles_3.png"]
+		</script>
+		<script src="js/slide_show.js"></script>
+	</head>
+	<body>
+		<div id="border_super">
+			<div id="border">
+				<nav>
+					<ul id="nav_list">
+						<li class="nav_lvl_1"><a class="nav_a" href="index.html">HOME</a></li>
+						<li class="nav_lvl_1"><a class="nav_a" href="javascript:void(0)">PROJECTS</a>
+							<ul class="nav_drop">
+								<li class="nav_lvl_2"><a class="nav_a" href="item_rota.html">ROTA</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="javascript:void(0)">BUBBLES</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_impact.html">IMPACT</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_hexgrid.html">HEXGRID HEROES</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_tyro.html">TEAM TYRO</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_space.html">AUTONOMOUS SPACE SIM</a></li>
+							</ul>
+						</li>
+						<li class="nav_lvl_1"><a class="nav_a" href="resume.pdf" target="_blank">RESUME</a>
+					</ul>
+				</nav>
+				<header class="content">
+					<h1>BUBBLES</h1>
+				</header>
+				<article class="content">
+					<button id="left" class="slide_button">
+						<a id="active_left" class="active" href="javascript:void(0)">
+							<img
+								src="media/arrow_left.png"
+								alt="Portfolio item">
+						</a>
+					</button>
+					<button id="right" class="slide_button">
+						<a id="active_right" class="active" href="javascript:void(0)">
+							<img
+								src="media/arrow_right.png"
+								alt="Portfolio item">
+						</a>
+					</button>
+					<div id="slide_show">
+						<div id="wrapper_over">
+							<img id="img_over" alt="screenshot of game" src="media/ss_teamtyro_1.png">
+						</div>
+						<div id="wrapper_under">
+							<img id="img_under" alt="screenshot of game" src="media/ss_teamtyro_2.png">
+						</div>
+					</div>
+				</article>
+				<article class="content">
+					<p id="item_description">
+					Role: All
+					<br>
+					<br>
+					Language: Processing
+					<br>
+					<br>
+					Bubbles is a graphics application designed for quickly drawing objects using lines and paths made of circles, and saving the image for printing.
+					The application has a responsive design to fit any window resolution, tools for straight-line and mouse-following paths, sliders for circle radius and distance, and buttons for clearing, undo, and exporting.
+					Bubbles was used by Occupational Therapists to create bubble sheets for helping students develop small motor skills.
+					</p>
+				</article>
+				<footer>
+					<div class="footer_bottom item_repo">
+						<div id="git_button">
+							<a href="https://github.com/Alcom1/Bubbles.git">
+								<p>Repository
+								<img
+									src="media/git.png"
+									alt="Portfolio item">
+								</p>
+							</a>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

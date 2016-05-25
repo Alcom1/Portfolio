@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Impact</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/item.css"/>
+		<link rel="stylesheet" type="text/css" href="css/canvas.css"/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato"/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:500"/>
+	</head>
+	<body>
+		<div id="border_super">
+			<div id="border">
+				<nav>
+					<ul id="nav_list">
+						<li class="nav_lvl_1"><a class="nav_a" href="index.html">HOME</a></li>
+						<li class="nav_lvl_1"><a class="nav_a" href="javascript:void(0)">PROJECTS</a>
+							<ul class="nav_drop">
+								<li class="nav_lvl_2"><a class="nav_a" href="item_rota.html">ROTA</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_bubbles.html">BUBBLES</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="javascript:void(0)">IMPACT</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_hexgrid.html">HEXGRID HEROES</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_tyro.html">TEAM TYRO</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_space.html">AUTONOMOUS SPACE SIM</a></li>
+							</ul>
+						</li>
+						<li class="nav_lvl_1"><a class="nav_a" href="resume.pdf" target="_blank">RESUME</a>
+					</ul>
+				</nav>
+				<header class="content">
+					<h1>IMPACT</h1>
+				</header>
+				<article class="content" style="position:static">
+					<canvas>
+						Get a real browser!
+					</canvas>
+					<!-- Classes -->
+					<script src='js/class_vect.js'></script>
+					<script src='js/class_shape.js'></script>
+					<script src='js/class_geometry_mesh.js'></script>
+					<script src='js/class_projectile.js'></script>
+					<script src='js/class_player.js'></script>
+					
+					<!-- Tools -->
+					<script src='js/utilities.js'></script>
+					<script src='js/loader.js'></script>
+					<script src='js/keys.js'></script>
+					
+					<!-- Modules -->
+					<script src='js/module_projectiles.js'></script>
+					<script src='js/module_levels.js'></script>
+					<script src='js/module_sound.js'></script>
+					<script src='js/module_main.js'></script>
+					<section id="audioControls">
+						<audio id="effectAudio" controls></audio>
+						<audio id="pShootAudio" src="media/db1.ogg" controls></audio>
+					</section>
+					<hr>
+					<div id="controls">
+						<h3><u>Controls</u></h3>
+						<p>Aim: Point your cursor where you wish to fire.</p>
+						<p>Shoot: Left Mouse Button</p>
+						<p>Move: WASD</p>
+					</div>
+				</article>
+				<article class="content">
+					<p id="item_description">
+					Role: All
+					<br>
+					<br>
+					Language: Javascript
+					<br>
+					<br>
+					Impact is a basic twin-stick style shooter demonstrating the use of collapsing n-gons in games.
+					The game uses special collision detection between points and n-gons to create stationary objects that collapse, crater, and shrink when colliding with a projectile.
+					The game features a sequence of levels that require all asteroids to be destroyed to advance.
+					</p>
+				</article>
+				<footer>
+					<div class="footer_bottom item_repo">
+						<div id="git_button">
+							<a href="https://github.com/Alcom1/Impact">
+								<p>Repository
+								<img
+									src="media/git.png"
+									alt="Portfolio item">
+								</p>
+							</a>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Rota</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/item.css"/>
+		<link rel="stylesheet" type="text/css" href="css/canvas.css"/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato"/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:500"/>
+		<script src="js/processing.min.js"></script>
+	</head>
+	<body>
+		<div id="border_super">
+			<div id="border">
+				<nav>
+					<ul id="nav_list">
+						<li class="nav_lvl_1"><a class="nav_a" href="index.html">HOME</a></li>
+						<li class="nav_lvl_1"><a class="nav_a" href="javascript:void(0)">PROJECTS</a>
+							<ul class="nav_drop">
+								<li class="nav_lvl_2"><a class="nav_a" href="javascript:void(0)">ROTA</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_bubbles.html">BUBBLES</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_impact.html">IMPACT</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_hexgrid.html">HEXGRID HEROES</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_tyro.html">TEAM TYRO</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="item_space.html">AUTONOMOUS SPACE SIM</a></li>
+							</ul>
+						</li>
+						<li class="nav_lvl_1"><a class="nav_a" href="resume.pdf" target="_blank">RESUME</a>
+					</ul>
+				</nav>
+				<header class="content">
+					<h1>ROTA</h1>
+				</header>
+				<article class="content">
+					<canvas data-processing-sources="
+						pde/Connect_4.pde
+						pde/AI.pde
+						pde/Button.pde
+						pde/Button_2_Play.pde
+						pde/Button_Play.pde
+						pde/Button_Single.pde
+						pde/Grid.pde
+						pde/GridSpace.pde"></canvas>
+					<hr>
+					<div id="controls">
+						<h3><u>Controls</u></h3>
+						<p>Place and rotate left: left-mouse click</p>
+						<p>Place and rotate right: right-mouse click</p>
+					</div>
+				</article>
+				<article class="content">
+					<p id="item_description">
+					Role: All
+					<br>
+					<br>
+					Language: Processing
+					<br>
+					<br>
+					Rota is a variety of Connect-4 featuring a board that rotates at right angles between turns. The game is complete with physics, win-state detection, and a purely random AI opponent for single-player.
+					</p>
+				</article>
+				<footer>
+					<div class="footer_bottom item_repo">
+						<div id="git_button">
+							<a href="https://github.com/Alcom1/Rota">
+								<p>Repository
+								<img
+									src="media/git.png"
+									alt="Portfolio item">
+								</p>
+							</a>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
