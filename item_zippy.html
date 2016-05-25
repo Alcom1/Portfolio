@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Hexgrid</title>
+		<title>Project Zippy</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
 		<link rel="stylesheet" type="text/css" href="css/item.css"/>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato"/>
@@ -11,10 +11,9 @@
 		<script>
 			//Global array of images.
 			var images = [
-				"media/ss_hex_1.png",
-				"media/ss_hex_2.png",
-				"media/ss_hex_3.png",
-				"media/ss_hex_4.png"]
+				"media/ss_pz_1.png",
+				"media/ss_pz_2.png",
+				"media/ss_pz_3.png"]
 		</script>
 		<script src="js/slide_show.js"></script>
 	</head>
@@ -29,7 +28,7 @@
 								<li class="nav_lvl_2"><a class="nav_a" href="item_rota.html">ROTA</a></li>
 								<li class="nav_lvl_2"><a class="nav_a" href="item_bubbles.html">BUBBLES</a></li>
 								<li class="nav_lvl_2"><a class="nav_a" href="item_impact.html">IMPACT</a></li>
-								<li class="nav_lvl_2"><a class="nav_a" href="javascript:void(0)">HEXGRID HEROES</a></li>
+								<li class="nav_lvl_2"><a class="nav_a" href="javascript:void(0)">PROJECT ZIPPY</a></li>
 								<li class="nav_lvl_2"><a class="nav_a" href="item_tyro.html">TEAM TYRO</a></li>
 								<li class="nav_lvl_2"><a class="nav_a" href="item_space.html">AUTONOMOUS SPACE SIM</a></li>
 							</ul>
@@ -38,7 +37,7 @@
 					</ul>
 				</nav>
 				<header class="content">
-					<h1>HEXGRID HEROES</h1>
+					<h1>PROJECT ZIPPY</h1>
 				</header>
 				<article class="content">
 					<button id="left" class="slide_button">
@@ -66,14 +65,31 @@
 				</article>
 				<article class="content">
 					<p id="item_description">
-					Role: Character conceptualizing, asset development.
+					<b>Role:</b> Player Controls and Physics development. Collision detection, resolution, and optimization development.
 					<br>
 					<br>
-					Hexgrid Heroes is a turn-based asymmetrical board game that involves knocking opposing players off a hexagon grid arena.
-					Each player choses among four unique heroes, and uses their active and passive abilities to deal damage to opponents, increase their opponents damage tier, and use their opponent's damaged state to force them off the map.
-					Hexgrid Heroes was heavily play-tested and tweaked to better ensure a reasonable level of asymmetrical balance.
+					<b>Engine:</b> ReEngine
+					<br>
+					<br>
+					Project Zippy is a project to develop first person shooter controls in the OpenGL <a href="https://github.com/labigm/ReEngineApp_2015s">ReEngine</a>.
+					Project Zippy utlizes several advanced techniques to produce smooth controls and an effective experience,
+					including Arvo's algorithm for collision detection between the player sphere and the environment,
+					and a per-frame updating octree for collision optimization.
 					</p>
 				</article>
+				<footer>
+					<div class="footer_bottom item_repo">
+						<div id="git_button">
+							<a href="https://github.com/Alcom1/Project-Zippy">
+								<p>Repository
+								<img
+									src="media/git.png"
+									alt="Portfolio item">
+								</p>
+							</a>
+						</div>
+					</div>
+				</footer>
 			</div>
 		</div>
 	</body>
