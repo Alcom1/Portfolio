@@ -4,17 +4,13 @@ var index = 0;
 //Increment index	
 function incrementIndex()
 {
-	index++;
-	if(index >= images.length)
-		index = 0;
+	index = (index + 1).mod(images.length);
 }
 
 //Decrement index
 function decrementIndex()
 {
-	index--;
-	if(index < 0)
-		index = images.length - 1;
+	index = (index - 1).mod(images.length);
 }
 
 //Script runs when window loads.
@@ -55,3 +51,9 @@ window.addEventListener('load', function ()
 		document.getElementById("img_under").src = tempSrc;
 	});
 });
+
+//Alternative modulus
+Number.prototype.mod = function(n)
+{
+    return ((this % n) + n) % n;
+};
