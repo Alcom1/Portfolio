@@ -33,7 +33,7 @@ h1
 {
 	margin: auto;
 	font-size: 20px;
-	color: #404a5f;
+	color: #FFF;
 	text-align: center;
 }
 
@@ -111,3 +111,21 @@ h1
 	-webkit-transition: opacity .2s linear;
 	transition: opacity .2s linear;
 }
+
+@media (max-width: 745px)
+{
+	#slide_show
+	{
+		width: 400px;
+	}
+
+	#img_under
+	{
+		width: 400px;
+	}
+
+	#img_over
+	{
+		width: 400px;
+	}
+} 
