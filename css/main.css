@@ -154,6 +154,7 @@ nav
 	width: 250px;
 	height: 250px;
 	border-radius: 9px;
+	box-shadow: 0px 0px 6px #77A;
 }
 
 .port_title
@@ -168,21 +169,10 @@ nav
 	-moz-transition: transform .15s linear;
 	-webkit-transition: transform .15s linear;
 	transition: transform .15s linear;
-	
-	/*
-	opacity: 0;
-	-moz-transition: opacity .15s linear;
-	-webkit-transition: opacity .15s linear;
-	transition: opacity .15s linear;
-	*/
 }
 
 .port_item:hover .port_title
 {
-	/*
-	opacity: 1;
-	*/
-	
 	-ms-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -200,21 +190,10 @@ nav
 	-moz-transition: transform .15s linear;
 	-webkit-transition: transform .15s linear;
 	transition: transform .15s linear;
-	
-	/*
-	opacity: 0;
-	-moz-transition: opacity .15s linear;
-	-webkit-transition: opacity .15s linear;
-	transition: opacity .15s linear;
-	*/
 }
 
 .port_item:hover .port_text
 {
-	/*
-	opacity: 1;
-	*/
-	
 	-ms-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -240,8 +219,8 @@ body
 	max-width: 950px;
 	margin: auto;
 	background-color: #354579;
-	border-radius: 32px;
-	box-shadow: 0px 0px 20px 5px #575757;
+	border-radius: 12px;
+	box-shadow: 0px 4px 8px #777;
 }
 
 header, footer, .content
